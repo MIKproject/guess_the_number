@@ -1,8 +1,8 @@
 from random import *
 
 n = 1
+print('Добро пожаловать в числовую угадайку')
 while n > 0:
-    print('Добро пожаловать в числовую угадайку')
     x = int(input('Генерация чисел с 1 по: '))
     random_number = randint(1, x)
     counter = 0
